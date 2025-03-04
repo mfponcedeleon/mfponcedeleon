@@ -1,0 +1,8 @@
+# A patient's temperature, name, and age are read from input into variables temperature, first_name, and age. Create a list named patients_data to hold temperature, first_name, and age.
+temperature = float(input())
+first_name = input()
+age = int(input())
+
+patients_data = [temperature, first_name, age]
+
+print(patients_data)
