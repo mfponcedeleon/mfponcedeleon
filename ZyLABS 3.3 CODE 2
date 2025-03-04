@@ -1,0 +1,10 @@
+#List countries_list is created with three countries read from input. Using list methods and/or functions, assign: index_var with the index of the element 'Italy' in countries_list. len_var with the length of countries_list.
+
+# Reads three values from input into countries_list
+countries_list = [input(), input(), input()]
+
+index_var = countries_list.index('Italy')
+len_var = len(countries_list)
+
+print(f'Italy is found at index {index_var} of {countries_list}')
+print(f'List length: {len_var}')
