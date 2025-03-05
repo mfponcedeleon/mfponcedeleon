@@ -1,0 +1,11 @@
+# Set more_animals is initialized with four strings read from input. First, add more_animals's elements to animals_considered. 
+# Then, assign num_animals with the number of elements in animals_considered
+
+animals_considered = {'bee'}
+more_animals = {input(), input(), input(), input()}
+
+animals_considered.update(more_animals)
+num_animals = len(animals_considered)
+
+print(sorted(animals_considered))
+print(f'Number of values considered: {num_animals}')
