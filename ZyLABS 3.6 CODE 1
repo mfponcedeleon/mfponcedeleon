@@ -1,0 +1,15 @@
+# Dictionary food_quantity_pairs contains two key-value pairs each representing a food name and the quantity ordered. Complete the following steps:
+
+# Read a string from input into variable key_name, representing a food name.
+# Modify the quantity associated with key_name so that the updated value is the original value minus 1. CODE:
+
+
+food_quantity_pairs = {'soups': 69, 'pickles': 34}
+print('Original:')
+print(food_quantity_pairs)
+
+key_name = input()
+food_quantity_pairs[key_name]-=1
+
+print('Updated:')
+print(food_quantity_pairs)
